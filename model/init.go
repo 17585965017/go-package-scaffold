@@ -1,7 +1,6 @@
 package model
 
 import (
-	"go_package_scaffold/util"
 	"log"
 	"os"
 	"time"
@@ -9,6 +8,8 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
+
+	"go_package_scaffold/util"
 )
 
 // DB 数据库链接单例
