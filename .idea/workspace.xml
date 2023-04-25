@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4c4d43-95b7-4dbb-b209-951d28020d45" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/middleware/cors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +101,7 @@
       <workItem from="1682414898908" duration="29000" />
       <workItem from="1682414929003" duration="1152000" />
       <workItem from="1682416084098" duration="37000" />
+      <workItem from="1682416130051" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create a new go project using ide">
       <created>1682412390599</created>
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682415700601</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: configure cors sessions cookie middleware and join the project">
+      <created>1682416255287</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682416255287</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +196,8 @@
     <MESSAGE value="feat: Router detachment" />
     <MESSAGE value="fix: change the auth directory location" />
     <MESSAGE value="feat: creating a new API directory to detach interface processing functions is called a directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: creating a new API directory to detach interface processing functions is called a directory" />
+    <MESSAGE value="feat: configure cors sessions cookie middleware and join the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: configure cors sessions cookie middleware and join the project" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
