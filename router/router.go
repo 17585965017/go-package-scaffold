@@ -1,7 +1,7 @@
 package router
 
 import (
-	"net/http"
+	"go_package_scaffold/api/v1"
 
 	"github.com/gin-gonic/gin"
 )
@@ -13,11 +13,7 @@ func NewRouter() *gin.Engine {
 	// 路由配置
 	v1 := r.Group("/api/v1")
 	{
-		v1.GET("/home", func(c *gin.Context) {
-			c.JSON(http.StatusOK, gin.H{
-				"message": "pong",
-			})
-		})
+		v1.GET("/home", api.GetHome)
 	}
 
 	return r

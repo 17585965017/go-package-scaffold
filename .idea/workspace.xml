@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4c4d43-95b7-4dbb-b209-951d28020d45" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <workItem from="1682414711161" duration="37000" />
       <workItem from="1682414749419" duration="147000" />
       <workItem from="1682414898908" duration="29000" />
-      <workItem from="1682414929003" duration="367000" />
+      <workItem from="1682414929003" duration="759000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create a new go project using ide">
       <created>1682412390599</created>
@@ -116,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682413320042</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Router detachment">
+      <created>1682415305303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682415305303</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: change the auth directory location">
+      <created>1682415395258</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682415395258</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +155,9 @@
     <MESSAGE value="feat: add project configuration file" />
     <MESSAGE value="feat: add engineering tool function catalog" />
     <MESSAGE value="feat: load project logs as soon as the project runs" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add engineering tool function catalog" />
+    <MESSAGE value="feat: Router detachment" />
+    <MESSAGE value="fix: change the auth directory location" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: change the auth directory location" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
