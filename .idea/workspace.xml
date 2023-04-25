@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae4c4d43-95b7-4dbb-b209-951d28020d45" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/auth/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/common.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/logger.go" afterDir="false" />
-    </list>
+    <list default="true" id="ae4c4d43-95b7-4dbb-b209-951d28020d45" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682412099136</updated>
-      <workItem from="1682412100138" duration="1168000" />
+      <workItem from="1682412100138" duration="1483000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create a new go project using ide">
       <created>1682412390599</created>
@@ -87,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682412821548</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add engineering tool function catalog">
+      <created>1682413320042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682413320042</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +115,9 @@
     <MESSAGE value="feat: add project description file README.md" />
     <MESSAGE value="feat: add project description file launch.json" />
     <MESSAGE value="feat: add project configuration file" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add project configuration file" />
+    <MESSAGE value="feat: add engineering tool function catalog" />
+    <MESSAGE value="feat: load project logs as soon as the project runs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add engineering tool function catalog" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
