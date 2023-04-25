@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4c4d43-95b7-4dbb-b209-951d28020d45" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/api/v1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/cors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/session.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +54,14 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go_package_scaffold" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go_package_scaffold" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_package_scaffold" />
       <working_directory value="$PROJECT_DIR$" />
@@ -57,6 +69,15 @@
       <package value="go_package_scaffold" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go_package_scaffold" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -77,7 +98,8 @@
       <workItem from="1682414711161" duration="37000" />
       <workItem from="1682414749419" duration="147000" />
       <workItem from="1682414898908" duration="29000" />
-      <workItem from="1682414929003" duration="759000" />
+      <workItem from="1682414929003" duration="1152000" />
+      <workItem from="1682416084098" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create a new go project using ide">
       <created>1682412390599</created>
@@ -128,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682415395258</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: creating a new API directory to detach interface processing functions is called a directory">
+      <created>1682415700601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682415700601</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +186,8 @@
     <MESSAGE value="feat: load project logs as soon as the project runs" />
     <MESSAGE value="feat: Router detachment" />
     <MESSAGE value="fix: change the auth directory location" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: change the auth directory location" />
+    <MESSAGE value="feat: creating a new API directory to detach interface processing functions is called a directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: creating a new API directory to detach interface processing functions is called a directory" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
