@@ -18,6 +18,9 @@ func NewRouter() *gin.Engine {
 	v1 := r.Group("/api/v1")
 	{
 		v1.GET("/home", api.GetHome)
+
+		// 用户登录
+		v1.POST("user/register", api.UserRegister)
 	}
 
 	return r

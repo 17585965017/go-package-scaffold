@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4c4d43-95b7-4dbb-b209-951d28020d45" name="更改" comment="feat: Remove i18n support">
-      <change afterPath="$PROJECT_DIR$/model/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/migration.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/i18n.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/locales/zh-cn.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serializer/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serializer/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/user_register_service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,7 @@
       <workItem from="1682414898908" duration="29000" />
       <workItem from="1682414929003" duration="1152000" />
       <workItem from="1682416084098" duration="37000" />
-      <workItem from="1682416130051" duration="6514000" />
+      <workItem from="1682416130051" duration="7864000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create a new go project using ide">
       <created>1682412390599</created>
