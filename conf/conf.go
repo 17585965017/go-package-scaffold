@@ -17,6 +17,11 @@ func Init() {
 		log.Fatal("Error loading .env.example file")
 	}
 
+	// 读取翻译文件
+	if err := LoadLocales("conf/locales/zh-cn.yaml"); err != nil {
+		util.Log().Panic("翻译文件加载失败", err)
+	}
+
 	// 设置日志级别
 	util.BuildLogger(os.Getenv("LOG_LEVEL"))
 }
