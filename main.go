@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "go_package_scaffold/conf"
 
 func main() {
-	fmt.Println("Hello, World!")
+	// 从配置文件读取配置
+	conf.Init()
 }
