@@ -1,0 +1,35 @@
+version: '2'
+
+services:
+  user-api:
+    build: ./
+    image: user-api:latest
+    container_name: user-api
+    restart: always
+    environment:
+      MYSQL_DSN: "root:QBwNk5GN5xfB@tcp(mysql:3306)/go_user?charset=utf8mb4,utf8&parseTime=True&loc=Local"
+      REDIS_ADDR: "redis:6379"
+      REDIS_DB: "0"
+      SESSION_SECRET: "rBaXcd1PPrC1"
+      GIN_MODE: "release"
+      RUN_PORT: ":8000"
+    ports:
+      - 8000:8000
+    depends_on:
+      - redis
+      - mysql
+  mysql:
+    container_name: mysql
+    image: mysql:5.6
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: QBwNk5GN5xfB
+      MYSQL_DATABASE: go_user
+    ports:
+      - "3306:3306"
+  redis:
+    container_name: redis
+    image: redis
+    restart: always
+    ports:
+      - "6379:6379"

@@ -21,3 +21,9 @@
 # vendor/
 
 go.sum
+
+.vscode/
+.env
+.idea
+docker-compose.yml
+debug
