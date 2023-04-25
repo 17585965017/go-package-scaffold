@@ -7,6 +7,8 @@
 *.dll
 *.so
 *.dylib
+*.test
+*.prof
 
 # Test binary, build with `go test -c`
 *.test
@@ -20,10 +22,28 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+# Sublime files
+*.sublime-*
+
+# Vscode files
+.vscode/*
+cmd/swagger/swagger.json.bak
+tags
+
+# Idea
+.idea
+go-swagger.iml
+
+
+# go other config
 go.sum
 
-.vscode/
 .env
-.idea
 docker-compose.yml
 debug
+
+go-swagger.iml
+
+# node
+node_modules
+dist/
