@@ -10,6 +10,8 @@ import (
 func NewRouter() *gin.Engine {
 	r := gin.Default()
 
+	r.Use(middleware.ClienttimeMiddleware())
+	r.Use(middleware.TimeoutMiddleware())
 	r.Use(middleware.Session("setOnProduction"))
 	r.Use(middleware.Cors())
 
